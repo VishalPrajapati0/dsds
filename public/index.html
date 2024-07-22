@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Video Player</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 20px;
+    }
+    video {
+      margin: 10px 0;
+    }
+  </style>
+</head>
+<body>
+  <h1>Video Player</h1>
+
+  <!-- Merged Video -->
+  <video controls autoplay muted width="600">
+    <source src="/merged_video.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+  <br> <!-- Line break to separate the videos -->
+
+  <!-- Original Videos -->
+  <video controls width="600">
+    <source src="/videos/video1.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+  <br> <!-- Line break to separate the videos -->
+
+  <video controls width="600">
+    <source src="/videos/video2.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+  <br> <!-- Line break to separate the videos -->
+
+  <video controls width="600">
+    <source src="/videos/video3.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+</body>
+</html>
